@@ -1,5 +1,4 @@
 package org.infoshareacademy.lombok;
-/*
 
 import lombok.Builder;
 import lombok.Getter;
@@ -13,4 +12,3 @@ public class Uzytkownik {
     private final String nazwisko;
     private final Integer wiek;
 }
-*/

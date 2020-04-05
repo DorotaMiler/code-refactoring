@@ -1,5 +1,4 @@
 package org.infoshareacademy.lombok;
-/*
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -18,7 +17,13 @@ public class UzytkownikService {
         final Uzytkownik uzytkownik = utworzUzytkownika("Maciej", "Adamski", 31);
         //Zobacz jakie wartości ma dostepne uzytkownik i czy mozna je zmienic?
 
+        UzytkownikRequiredArgsContructor uzytkownikRequiredArgsContructor = new UzytkownikRequiredArgsContructor("Maciej","Drugi",11);
+
+        UzytkownikPrzyklady uzytkownikPrzyklady = new UzytkownikPrzyklady("Imie");
+        uzytkownikPrzyklady.setNazwisko("nazwisko");
+        uzytkownikPrzyklady.setPassword("Haslo");
+        //Lecz nie mamy getterow dla wszystkich pol
+        //uzytkownikPrzyklady.getNazwisko();
     }
 
 }
-*/
